@@ -1,20 +1,23 @@
 # lsatividade-01
 
-### declaration
+definição de função: é um bloco do código para tarefas expecificas que podemos aproveitar  para que não os desenvolvedores não precisem escrever a mesmo código diversas vezes
+
+### declaration(forma antiga)
 ```
 function soma(x, y) {
     return x + y;
 }
 ```
-ola
-### expression
+
+### expression(forma comteporania)
 
 ```
 let nome = function(nome) {
     return "meu nome é " + nome;
 }
 ```
-### arrow.
+
+### arrow(forma moderna)
 
 ```
 let desconto = (preço, desconto) => {
